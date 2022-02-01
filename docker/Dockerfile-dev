@@ -1,6 +1,6 @@
 ####################################################################
 # base image contains all the dependencies we need to build the code
-FROM valhalla:2021-12-02 as builder
+FROM webgeoservices/valhalla:builder-latest as builder
 MAINTAINER Kevin Kreiser <kevinkreiser@gmail.com>
 
 # get the code into the right place and prepare to build it
